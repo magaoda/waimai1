@@ -1,0 +1,280 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.4rem;
+    background: #16d6cb;
+    margin: 0 auto;
+	/* 谷歌内核 -webkit- */
+	/* 火狐内核  -moz- */
+	/* ie内核 -ms- */
+	/* 欧鹏内核 -o- */
+	/* background: url("../img/screen.png") no-repeat bottom/contain,-webkit-linear-gradient(top,#3cbfff,#46e6ff); */
+}
+header  .dianchi{
+	width: 7rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	display: flex;
+	background: #16d6cb;
+	justify-content: space-between;
+	background: url("../img2/StatusBar@2x.png")  no-repeat bottom/contain;
+	background-size: 7rem ;
+}
+header .dianchi  .sn{
+	width: 2.25rem;
+	height: 0.36rem;
+	background-color: red;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #fff;
+}
+.kong{
+    width: 100%;
+    height: 2.48rem;
+    margin: 0 auto;
+    background-color: #17e2d6;
+    padding-top: 0.2rem;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.kong .lian{ 
+    width: 7rem;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+.lian .icon1{
+    width: 0.53rem;
+    height: 0.53rem;
+    color: #ffffff;
+    float: left;
+}
+.lian .icon1:nth-child(2){
+    width: 0.53rem;
+    height: 0.53rem;
+    color: #ffffff;
+    float: right;
+}
+.pi{
+    width: 6.6rem;
+    height: 1.47rem;
+    padding: 0.251rem 0.21rem 0;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+} 
+.img{
+    width: 2rem;
+    height: 2rem;
+    float: left;
+}
+.pi .liang{
+    width: 4.2rem;
+    height: 1.47rem;
+    float: right;
+}
+.liang span{
+    font-size: 0.5rem;
+    color: #fff;
+    float: left;
+}
+.liang span:nth-child(2){
+    font-size: 0.26rem;
+    color: #fff;
+    margin-top: 0.18rem;
+    float: left;
+}
+.deng{
+    width: 100%;
+    height: 0.84rem;
+    margin: 0 auto;
+}
+.dengs{
+    width: 4.6rem;
+    height: 0.84rem;
+    float: right;
+    margin-right: 0.25rem;
+}
+.deng  .iconfont{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    color: #f7b92a;
+    font-size: 0.45rem;
+    margin: 0.15rem 0 0 0.1rem;
+}
+.deng .new{
+    width: 3.45rem;
+    height: 0.5rem;
+    float: right;
+    font-size: 0.22rem;
+    margin-top: 0.22rem;
+}
+.dian{
+    width: 5.6rem;
+    height: 0.9rem;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.dian .dians{
+    width: 0.6rem;
+    height: 0.9rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.dian .dians:nth-last-child(2){
+    width: 2.8rem;
+    height: 0.9rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.big{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.big .bigCon{
+    width: 7rem;
+    height: 13rem;
+    margin: 0 auto;
+    border-top:  0.02rem solid #9e9e9e;
+}
+.bigCon .left{
+    width: 1.2rem;
+    height: 6.84rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+.left .son{
+    width: 1.2rem;
+    height: 0.7rem;
+    text-align:left;
+    font-size: 0.3rem;
+    margin: 0.5rem 0 0.5rem 0;
+}
+.left .limg{
+    width: 0.32rem;
+    height: 0.32rem;
+    background-image: url("../img2/热销.png");
+    float: left;
+    margin-top: 0.06rem;
+    margin-right: 0.1rem; 
+}
+.left .son span{
+    float: left;
+    font-weight: 600;
+}
+.right{
+    width: 5rem;
+    height: 13rem;
+    float: right;
+}
+.right .re{
+    width: 5rem;
+    height: 0.7rem;
+    font-size: 0.12rem;
+    line-height: 0.7rem;
+}
+.right .box{
+    width:5rem;
+    height: 1.61rem;
+    margin-bottom: 0.5rem;
+}
+.box .bimg{
+    width: 2rem;
+    height: 1.52rem;
+    float: left;
+}
+.box .book{
+    width: 2.36rem;
+    height: 1.6rem;
+    float: right;
+}
+.book .book1{
+    width: 2.36rem;
+    height: 0.4rem;
+    text-align: left;
+    font-size: 0.30rem;
+}
+.book .book2{
+    width: 2.36rem;
+    height: 0.4rem;
+    text-align: left;
+    font-size: 0.12rem;
+    line-height: 0.4rem;
+}
+.book .book3{
+    width: 2.36rem;
+    height: 0.4rem;
+    text-align: left;
+    font-size: 0.12rem;
+    line-height: 0.4rem;
+}
+.book .book4{
+    width: 2.36rem;
+    height: 0.4rem;
+    text-align: left;
+    line-height: 0.4rem;
+    font-size: 0.34rem;
+    color: red;
+}
+.book4 .yuan{
+    width: 60%;
+    height: 0.4rem;
+    float: right;
+}
+.yuan .huang{
+    width: 27%;
+    height: 0.34rem;
+    float: right;
+    background-image: url("../img2/椭圆2.png") ;
+}
+.footer{
+    width: 100%;
+    height: 1rem;
+    background-color: #424242;
+    margin: 0.5rem auto 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.footer .car{
+    width: 1.12rem;
+    height: 1.12rem;
+    position: absolute;
+    top: -0.4rem;
+    left: 0.5rem;
+    background-color: #939091;
+    border-radius: 50%;
+}
+.car .iconfont{
+    margin: 0.15rem 0 0 0.15rem;
+    font-size: 0.8rem;
+    color: #fff;
+}
+.footer .text1{
+    width: 3.5rem;
+    height: 0.8rem;
+    float:left;
+    color: #b9b4b4;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    margin-left: 1.8rem;
+}
+.footer .text2{
+    width: 2rem;
+    height: 0.8rem;
+    float:right;
+    color: #b9b4b4;
+    font-size: 0.2rem;
+    margin-top: 0.2rem;
+    text-align: right;
+    margin-right: 0.2rem;
+}

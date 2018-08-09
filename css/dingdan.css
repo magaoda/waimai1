@@ -1,0 +1,261 @@
+/*
+* @Author: Sing-V
+* @Date:   2018-07-09 09:23:27
+* @Last Modified by:   Sing-V
+* @Last Modified time: 2018-07-30 08:37:17
+*/
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 微软雅黑
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #cedddc;
+
+}
+header{
+	width: 100%;
+	height: 1.3rem;
+	/* google内核 -webkit- */
+	background: #1df4e2;
+	/* 火狐 */
+	background: -moz-linear-gradient(top);
+	/* ie */
+	background: -ms-linear-gradient(top);
+	/* open */
+	background: -o-linear-gradient(top);
+
+}
+header .masage{
+	height: 0.5rem;
+	display: flex;  
+	/* 指定为弹性布局 */
+	justify-content: space-around;
+	/* 子元素在水平方向的对齐方式 */
+	align-content: center;
+	line-height: 0.5rem;
+	/* 子元素在垂直方向的对齐方式 */
+	background: url('../img/ios/Status Bar.png') no-repeat;
+	background-size: 7rem;
+	background-position: .3rem 0.08rem;
+	
+	
+
+}
+
+.indent{
+	display: flex;
+	width:100%;
+	height: 0.9rem;
+	justify-content: space-around;
+	align-items: center;
+	font-size: .35rem;
+	color: #fff;
+	line-height: .9rem;
+}
+
+
+
+
+.goods{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	display: flex;
+	font-family: "宋体";
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.mine{
+	width: 7.03rem;
+	height: 1.05rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-around;
+}
+.l{
+	font-size: .28rem;
+	line-height: 1.05rem;
+}
+.r{
+	width: auto;
+	height: 1.05rem;
+	font-size: .2rem;
+	line-height: 1.05rem;
+	margin-left: 4rem;
+	color: #ccc;
+}
+.r>span{
+	font-size: .25rem;
+}
+.indented{
+	width: 7.03rem;
+	height: 3.73rem;
+	margin: 0 auto;
+	position: relative;
+	padding-top: .3rem;
+	box-sizing: border-box;
+}
+
+.con{	
+	width: 7rem;
+	height: 2rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #333;
+	font-weight: 200;
+	border-top: 1px solid #ccc;
+}
+.ed{	
+	width: 7rem;
+	height: 2rem;
+	padding-left: .4rem;
+	box-sizing: border-box;
+	align-items: center;
+	color: #333;
+	font-weight: 200;
+	
+}
+.con0{
+	width: 100%;
+	height: 3.45rem;
+}
+.ri{
+	width: 4.3rem;
+	height: 1.54rem;
+	float: right;	
+}
+.ming{	
+	display: block;
+	font-size: .45rem;
+	font-weight: 600;
+}
+.ming1{
+	font-size: .3rem;
+	color: #888;
+}
+.nei{
+	font-size: .05rem;
+	color: #888;
+}
+.ed-r{
+	float: right;
+}
+
+
+.another{
+	width: 3.41rem;
+	height: .43rem;
+	position: absolute;
+	top:3.0rem;
+	right: 0;
+	display: flex;
+	font-size: .25rem;
+	justify-content: space-between;
+	
+}
+.more1{
+	width: 1.55rem;
+	height: 100%;
+	border-radius: .27rem;
+	text-align: center;
+	color: #fff;
+	background-color: #FFBC7B;
+}
+.ge2{
+	width: 7rem;
+	height: .2rem;
+	margin: 0 auto;
+	background-color: #e3e3e3;
+}
+.near{
+	width: 7rem;
+	height: 1rem;
+	margin: 0 auto;
+	font-size: .3rem;
+	line-height: 1rem;
+	padding-left: .1rem;
+	box-sizing: border-box;
+
+}
+.con1{
+	border-top: 0;
+}
+.pro{
+	width: 4.3rem;
+	height: 1.54rem;	
+}
+h5{
+	font-size: 0.35rem;
+}
+h2,h3,h4{
+	font-size: 0.14rem;
+
+}
+
+.index{
+	width: 100%;
+	height: 1.4rem;
+	background: #fff;
+}
+.inCon{
+	width: 7rem;
+	height: 1.4rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.pic{
+	width: .6rem;
+	height: .72rem;
+	text-align: center;
+	font-size: .3rem;
+}
+.pic .iconfont{
+	width: .57rem;
+	height: .7rem;
+	font-size: .6rem;
+}
+.pic1{
+	color: #1df4e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bottom{
+	width: 100%;
+	height: 1.14rem;
+	font-size: 0.33rem;
+	color: #b5b5b5;
+	text-align: center;
+	line-height: 1.14rem;
+	border-top: 0.03rem solid #efefef;
+	border-bottom: 0.03rem solid #efefef;
+	box-sizing: border-box;
+
+}  */

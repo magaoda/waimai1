@@ -1,0 +1,268 @@
+@import url('base.css');
+header{
+	width: 100%;
+	height: 0.4rem;
+    background: #16d6cb;
+	/* 谷歌内核 -webkit- */
+	/* 火狐内核  -moz- */
+	/* ie内核 -ms- */
+	/* 欧鹏内核 -o- */
+	/* background: url("../img/screen.png") no-repeat bottom/contain,-webkit-linear-gradient(top,#3cbfff,#46e6ff); */
+}
+header  .dianchi{
+	width: 7rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	display: flex;
+	background: #16d6cb;
+	justify-content: space-between;
+	background: url("../img2/StatusBar@2x.png")  no-repeat bottom/contain;
+	background-size: 7rem ;
+}
+header .dianchi  .sn{
+	width: 2.25rem;
+	height: 0.36rem;
+	background-color: red;
+	font-size: 0.32rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #fff;
+}
+.ren{
+    width: 100%;
+    height: 2.75rem;
+    background: url("../img2/矩形7.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 0.2rem;
+   
+}
+.ren .xing{
+    width: 1.5rem;
+    height: 2.2rem;
+    position: absolute;
+    bottom: -0.74rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+.xing p{
+    font-size: 0.4rem;
+    text-align: center;
+}
+
+.ren .xie{
+    width: 7rem;
+    height: 0.5rem;
+    margin: 0 auto ;
+    box-sizing: border-box;
+}
+.xie .icon{
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+    font-size: 0.4rem;
+}
+.xie .icon:nth-child(2){
+    float: right;
+    
+}
+.icon .iconfont{
+    font-size: 0.5rem;
+    color: #fff;
+}
+.shou{
+    width: 100%;
+    height: 1.65rem;
+    margin-top: 1.2rem;
+    
+}
+.shou .zu{
+    width: 6rem;
+    height: 1.44rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.zu a{
+    display: block;
+    width: 0.7rem;
+    height: 1.2rem;
+    padding: 0.20rem 0.5rem;
+    color: #333;
+}
+.zu a .iconfont{
+    font-size: 0.6rem;
+}
+.zu a .icon-buoumaotubiao44{
+    color: #fe5955;
+}
+.zu a .icon-zuji{
+    color: #79f91b;
+}
+.zu a .icon-pingjia-tianchong{
+    color: #1bdcf9;
+}
+.zu a p{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.qian{
+    width: 100%;
+    height: auto;
+}
+.qian .bao{
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+    border-top: 0.01rem solid #bfbfbf;
+}
+.bao .zi{
+    width: 3rem;
+    height: 0.4rem;
+    margin-left: 0.3rem;
+    font-size: 0.26rem;
+}
+.bao  .con{
+    width: 6rem;
+    height: 3.2rem;
+    margin: 0.3rem 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con a{
+    display: block;
+    width: 1.5rem;
+    height: 1.8rem;
+    color: #333;
+}
+.bao a p{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.bao a .cons1{
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.02rem solid #bfbfbf;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.bao a .cons1 .iconfont{
+    font-size: 0.6rem;
+    margin: 0.1rem 0 0 0.1rem;
+}
+.bao a .icon-qianbao{
+    color: #f25f5c;
+}
+.bao a .icon-hongbao1{
+    color: red;
+}
+.bao a .icon-icon_yinhangqia{
+    color: #f7931e;
+}
+.bao a .icon-yue{
+    color: #64cb43;
+}
+.bao a .icon-erweima{
+    color: #d4237a;
+}
+.qian .fu{
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+}
+.fu .wu{
+    width: 3rem;
+    height: 0.4rem;
+    margin-left: 0.3rem;
+    font-size: 0.3rem;
+    margin-top: 0.4rem;
+}
+.fu  .con{
+    width: 6rem;
+    height: 2rem;
+    margin: 0.3rem 0 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fu .con a{
+    display: block;
+    width: 1.5rem;
+    height: 1.8rem;
+    color: #333;
+}
+.fu a p{
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.fu a .cons1{
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 0.02rem solid #bfbfbf;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.fu a .cons1 .iconfont{
+    font-size: 0.6rem;
+    margin: 0.1rem 0 0 0.1rem;
+}
+.fu a .icon-huiyuan{
+    color: #1bdcf9;
+}
+.fu a .icon-custom-service{
+    color: #69baff;
+}
+.fu a .icon-chongzhi{
+    color: #f7931e;
+}
+.fu a .icon-fapiaoguanli{
+    color: #ef8200;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    border-top: 0.02rem solid #f9f9f7;
+}
+.footer .bottom{
+    width: 7rem;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .bo{
+    width: 1.6rem;
+    height: 1rem;
+    margin-top: 0.1rem;
+}
+.bo a{
+    display: block;
+    width: 1.6rem;
+    height: 1rem;
+    color: #333;
+}
+.bo a p{
+    font-size: 0.2rem;
+    text-align: center;
+}
+.bo a .cons1{
+    width: 1rem;
+    height: 0.7rem;
+}
+.bo a .cons1 .iconfont{
+    font-size: 0.6rem;
+    margin: 0 0 0 0.5rem;
+}
+.bo a .cons1 .icon-faxian{
+    margin: 0 0 0 0.2rem;
+}

@@ -1,0 +1,233 @@
+@import url('base.css');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 微软雅黑
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #cedddc;
+
+}
+iconfont{
+    font-size: .12rem;
+}
+header{
+	width: 7.5rem;
+    height: 2.73rem;
+    position: relative;
+	/* google内核 -webkit- */
+	background: #1df4e2;
+	/* 火狐 */
+	background: -moz-linear-gradient(top);
+	/* ie */
+	background: -ms-linear-gradient(top);
+	/* open */
+	background: -o-linear-gradient(top);
+
+}
+header .masage{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	background: url('../img/ios/Status Bar.png') no-repeat;
+	background-size: 7rem;
+	background-position: .3rem 0.08rem;
+}
+.touXiang{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top:2.03rem;
+    left: 2.75rem;
+    z-index: 12;
+}
+
+
+.down{
+    width: 7.5rem;
+    height: 10.6rem;
+    background-color: #fff;
+    position: relative;
+}
+.welcome{
+    width: 100%;
+    height: 1.65rem;
+    padding-top: 1.65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.w-up{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.35rem;
+    margin:0 auto;
+    color: rgb(185, 181, 181);
+    text-align: center;
+
+}
+.w-down{
+    width: 4rem;
+    height: 0.3rem;
+    font-size: 0.32rem;
+    margin:0 auto;
+    line-height: 0.3rem;
+    color: #63b8ef  ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.point{
+    width: 0.14rem;
+    height: 0.14rem;
+    border-radius: 50%;
+}
+.p1{
+    background: #c2f0ec;
+}
+.p2{
+    background: #80f3e9;
+}
+.p3{
+    background: #4feee1;
+}
+.login-con{
+    width: 5.9rem;
+    height: 4.6rem;
+    background:#f9fafb;
+    box-shadow: 0 0.03 0.06 0 rgb(0, 0, 0,0.08);
+    margin: .3rem  auto;
+    position: absolute;
+    left: 0.8rem;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+    
+}
+.little{
+    width: 5.15rem;
+    height: .3rem;
+    position: absolute;
+    top:3.35rem;
+    left: 1.17rem;
+    background:#eeae83;
+    border-radius: 0.06rem;
+}
+.write-con{
+    width: 100%;
+    height: .6rem;
+    display: flex;
+
+    justify-content: space-around;
+    
+}
+.write-con input{
+    width: 4.68rem;
+    height: .6rem;
+    border:0;
+    padding-left: 0.3rem;
+    box-sizing: border-box;
+    font-size: 0.12rem;
+    background:#f9fafb; 
+    border-bottom: 0.01rem solid #ccc;
+    
+}
+.left{
+    width: .4rem;
+    height: 0.13rem;
+    background: #17e2d6;
+    border-radius: 0.1rem;
+    margin-top: .09rem;
+}
+.l3{
+    width: .38rem;
+    height: .38rem;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: .38rem;
+    font-size: .12rem;
+    color: #fff;
+}
+
+.yes{
+    width: .37rem;
+    height: .37rem;
+    border-radius: 50%;
+    position: absolute;
+    top:-.1rem;
+    right: .5rem;;
+}
+.lock{
+    width: .37rem;
+    height: .37rem;
+    border-radius: 50%;
+    position: absolute;
+    top:1.4rem;
+    right: .5rem;;
+}
+.allRight{
+    width: 1.85rem;
+    height: .38rem;
+    
+    border-radius: .15rem;
+    position: absolute;
+    z-index: 12;
+    top:8rem;
+    left: 2.8rem;
+    font-size: .2rem;
+    background: url("../img/ios/duihao.png") no-repeat;
+    background-position: 0.7rem;
+    background-size: 0.4rem;
+    background-color:#d2d7d7;
+    border: .01rem solid #Fff;
+}
+.qq{
+    width: 3.2rem;
+    height: .6rem;
+    position: absolute;
+    left: 2.1rem;
+    bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tongXin1{
+    width: .6rem;
+    height: .6rem;
+    border: .01rem solid #ccc;
+    border-radius: 50%;
+    font-size: 12px;
+    background: url("../img/ios/qq.png") no-repeat;
+    background-size: .47rem;
+    background-position: 0.06rem;
+    box-shadow:0.6 0.6 0.6 0 black;
+    
+}
+.tongXin2{
+    width: .6rem;
+    height: .6rem;
+    border: .01rem solid #ccc;
+    border-radius: 50%;
+    font-size: 12px;
+    background: url("../img/ios/wei_xing\ .png") no-repeat;
+    background-size: .47rem;
+    background-position: 0.06rem;
+    
+}
+.tongXin3{
+    width: .6rem;
+    height: .6rem;
+    border: .01rem solid #ccc;
+    border-radius: 50%;
+    font-size: 12px;
+    background: url("../img/ios/weibo.png") no-repeat;
+    background-size: .47rem;
+    background-position: 0.06rem;
+    
+}
